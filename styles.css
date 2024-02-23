@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.card{
+	width:300px;
+	height:400px;
+	background-color:#f5f5f5;
+	margin-inline:auto;
+	margin-top:10px;
+	border:1px solid gainsboro;
+	box-shadow:0px 0px 15px gainsboro;
+	padding:24px;
+	border-radius:5px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+.card>img{
+	width:100%;
+}
+.card>p{
+	font-size:16px;
+	text-align:center;
+}
+.card>button{
+	width:80px;
+	height:40px;
+	background-color:#FE625A;
+	color:white;
+	border:none;
+	border-radius:10px;
+	font-size:15px;
+	
+}
